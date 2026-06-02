@@ -310,16 +310,16 @@
                         "name": "workload",
                         "path": "system.cpu.workload",
                         "cmd": [
-                            "/workspace/src_cpu/main_unroll"
+                            "/workspace/src_cpu/Part2/main"
                         ],
-                        "cwd": "/workspace/src_cpu",
+                        "cwd": "/workspace/src_cpu/Part2",
                         "drivers": [],
                         "egid": 100,
                         "env": [],
                         "errout": "cerr",
                         "euid": 100,
                         "eventq_index": 0,
-                        "executable": "/workspace/src_cpu/main_unroll",
+                        "executable": "/workspace/src_cpu/Part2/main",
                         "gid": 0,
                         "input": "cin",
                         "kvmInSE": false,
